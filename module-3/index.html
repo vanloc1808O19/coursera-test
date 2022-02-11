@@ -1,77 +1,104 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-
-<title>Module 3</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Make a web page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-
-
-
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: gray; border: 2px solid black;">
+            <a class="navbar-brand" href="#">FOOD</a>
+            <button class="navbar-toggler" style="border: black 2px solid;" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="nav navbar-nav" id="nav-text">
+                    <a class="nav-item nav-link active" href="#">Chicken<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#"> <span class="hidden-md-up">Beef</span></a>
+                    <a class="nav-item nav-link" href="#">Sushi</a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-<nav class="navbar" id="top">
-  <div class="container-fluid">
+    <h1 class="heading-title text-center">Our Menu</h1>
 
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="#">Food, LLC</a>
+    <div class="box">
+        <div class="container item1">
+            <section>
+                <div id="chicken">
+                    <p>Chicken</p>
+                </div>
+                <p>Chickens are gregarious birds and live together in flocks. They have a communal approach to the
+                    incubation of eggs and raising of young. Individual chickens in a flock will dominate others,
+                    establishing a "pecking order", with dominant individuals having priority for food access and
+                    nesting locations. Removing hens or roosters from a flock causes a temporary disruption to this
+                    social order until a new pecking order is established. Adding hens, especially younger birds, to an
+                    existing flock can lead to fighting and injury.[19] When a rooster finds food, he may call other
+                    chickens to eat first. He does this by clucking in a high pitch as well as picking up and dropping
+                    the food. This behavior may also be observed in mother hens to call their chicks and encourage them
+                    to eat.</p>
+            </section>
+        </div>
+
+        <div class="container item2">
+            <section>
+                <div id="beef">
+                    <p>Beef</p>
+                </div>
+                <p>Chickens are gregarious birds and live together in flocks. They have a communal approach to the
+                    incubation of eggs and raising of young. Individual chickens in a flock will dominate others,
+                    establishing a "pecking order", with dominant individuals having priority for food access and
+                    nesting locations. Removing hens or roosters from a flock causes a temporary disruption to this
+                    social order until a new pecking order is established. Adding hens, especially younger birds, to an
+                    existing flock can lead to fighting and injury.[19] When a rooster finds food, he may call other
+                    chickens to eat first. He does this by clucking in a high pitch as well as picking up and dropping
+                    the food. This behavior may also be observed in mother hens to call their chicks and encourage them
+                    to eat.</p>
+            </section>
+        </div>
+
+        <div class="container item3">
+            <section>
+                <div id="sushi">
+                    <p>Sushi</p>
+                </div>
+                <p>Chickens are gregarious birds and live together in flocks. They have a communal approach to the
+                    incubation of eggs and raising of young. Individual chickens in a flock will dominate others,
+                    establishing a "pecking order", with dominant individuals having priority for food access and
+                    nesting locations. Removing hens or roosters from a flock causes a temporary disruption to this
+                    social order until a new pecking order is established. Adding hens, especially younger birds, to an
+                    existing flock can lead to fighting and injury.[19] When a rooster finds food, he may call other
+                    chickens to eat first. He does this by clucking in a high pitch as well as picking up and dropping
+                    the food. This behavior may also be observed in mother hens to call their chicks and encourage them
+                    to eat.</p>
+            </section>
+        </div>
+
     </div>
 
-    <div class="collapse" id="myNavbar">
-      <ul class="nav navbar-nav visible-xs">
-        <li><a class="menu-item" href="#">Chicken</a></li>
-        <li><a class="menu-item" href="#">Beef</a></li> 
-        <li><a class="menu-item" href="#">Sushi</a></li> 
-      </ul>
-    </div>
-
-  </div>
-</nav>
-
-<h1 class="main-title">Our Menu</h1>
 
 
-
-<div class="row">
-
-  <div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="content-box">
-      <p class="item-name">Chicken</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
-    </div>
-  </div>
-
-  <div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="content-box">
-      <p class="item-name">Beef</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
-    </div>
-  </div>
-
-
-  <div class="col-lg-4 col-md-12 col-sm-12">
-    <div class="content-box">
-      <p class="item-name">Sushi</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
-    </div>
-  </div>
-
-</div>
-
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
